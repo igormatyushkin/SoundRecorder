@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		786A98FB189FA5710055CF8B /* SNSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786A98F9189FA5710055CF8B /* SNSettingsViewController.m */; };
+		786A98FC189FA5710055CF8B /* SNSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 786A98FA189FA5710055CF8B /* SNSettingsViewController.xib */; };
+		7893E756189FDFFD007C052D /* SNSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7893E754189FDFFD007C052D /* SNSplashViewController.m */; };
+		7893E757189FDFFD007C052D /* SNSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7893E755189FDFFD007C052D /* SNSplashViewController.xib */; };
+		78AD7947189F980600771913 /* SNRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AD7946189F980600771913 /* SNRecorder.m */; };
+		78AD794C189FA1C200771913 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AD794B189FA1C200771913 /* AVFoundation.framework */; };
+		78BF019C189F82C0002E190A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BF019B189F82C0002E190A /* Foundation.framework */; };
+		78BF019E189F82C0002E190A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BF019D189F82C0002E190A /* CoreGraphics.framework */; };
+		78BF01A0189F82C0002E190A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BF019F189F82C0002E190A /* UIKit.framework */; };
+		78BF01A6189F82C0002E190A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78BF01A4189F82C0002E190A /* InfoPlist.strings */; };
+		78BF01A8189F82C0002E190A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BF01A7189F82C0002E190A /* main.m */; };
+		78BF01AC189F82C0002E190A /* SNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BF01AB189F82C0002E190A /* SNAppDelegate.m */; };
+		78BF01AE189F82C0002E190A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78BF01AD189F82C0002E190A /* Images.xcassets */; };
+		78BF01B5189F82C0002E190A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BF01B4189F82C0002E190A /* XCTest.framework */; };
+		78BF01B6189F82C0002E190A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BF019B189F82C0002E190A /* Foundation.framework */; };
+		78BF01B7189F82C0002E190A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BF019F189F82C0002E190A /* UIKit.framework */; };
+		78BF01BF189F82C0002E190A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78BF01BD189F82C0002E190A /* InfoPlist.strings */; };
+		78BF01C1189F82C0002E190A /* SoundRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BF01C0189F82C0002E190A /* SoundRecorderTests.m */; };
+		78BF01CF189F83DF002E190A /* SNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BF01CD189F83DF002E190A /* SNMainViewController.m */; };
+		78BF01D0189F83DF002E190A /* SNMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BF01CE189F83DF002E190A /* SNMainViewController.xib */; };
+		78F26222189FE69A00E197D9 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F26221189FE69A00E197D9 /* DropboxSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78BF01B8189F82C0002E190A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78BF0190189F82C0002E190A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78BF0197189F82C0002E190A;
+			remoteInfo = SoundRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		786A98F8189FA5710055CF8B /* SNSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNSettingsViewController.h; path = Views/SNSettingsViewController.h; sourceTree = "<group>"; };
+		786A98F9189FA5710055CF8B /* SNSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNSettingsViewController.m; path = Views/SNSettingsViewController.m; sourceTree = "<group>"; };
+		786A98FA189FA5710055CF8B /* SNSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SNSettingsViewController.xib; path = Views/SNSettingsViewController.xib; sourceTree = "<group>"; };
+		7893E751189FD86C007C052D /* SNMainViewControllerState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNMainViewControllerState.h; path = Views/SNMainViewControllerState.h; sourceTree = "<group>"; };
+		7893E753189FDFFD007C052D /* SNSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNSplashViewController.h; path = Views/Splash/SNSplashViewController.h; sourceTree = "<group>"; };
+		7893E754189FDFFD007C052D /* SNSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNSplashViewController.m; path = Views/Splash/SNSplashViewController.m; sourceTree = "<group>"; };
+		7893E755189FDFFD007C052D /* SNSplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SNSplashViewController.xib; path = Views/Splash/SNSplashViewController.xib; sourceTree = "<group>"; };
+		78AD7945189F980600771913 /* SNRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNRecorder.h; path = Classes/SNRecorder.h; sourceTree = "<group>"; };
+		78AD7946189F980600771913 /* SNRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNRecorder.m; path = Classes/SNRecorder.m; sourceTree = "<group>"; };
+		78AD7949189F9EC400771913 /* SNRecorderState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNRecorderState.h; path = Classes/SNRecorderState.h; sourceTree = "<group>"; };
+		78AD794A189F9FFD00771913 /* SNRecorderDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNRecorderDelegate.h; path = Classes/SNRecorderDelegate.h; sourceTree = "<group>"; };
+		78AD794B189FA1C200771913 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		78BF0198189F82C0002E190A /* SoundRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BF019B189F82C0002E190A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78BF019D189F82C0002E190A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		78BF019F189F82C0002E190A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		78BF01A3189F82C0002E190A /* SoundRecorder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundRecorder-Info.plist"; sourceTree = "<group>"; };
+		78BF01A5189F82C0002E190A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78BF01A7189F82C0002E190A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78BF01A9189F82C0002E190A /* SoundRecorder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoundRecorder-Prefix.pch"; sourceTree = "<group>"; };
+		78BF01AA189F82C0002E190A /* SNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNAppDelegate.h; sourceTree = "<group>"; };
+		78BF01AB189F82C0002E190A /* SNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNAppDelegate.m; sourceTree = "<group>"; };
+		78BF01AD189F82C0002E190A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		78BF01B3189F82C0002E190A /* SoundRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BF01B4189F82C0002E190A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		78BF01BC189F82C0002E190A /* SoundRecorderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundRecorderTests-Info.plist"; sourceTree = "<group>"; };
+		78BF01BE189F82C0002E190A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78BF01C0189F82C0002E190A /* SoundRecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundRecorderTests.m; sourceTree = "<group>"; };
+		78BF01CC189F83DF002E190A /* SNMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNMainViewController.h; path = Views/SNMainViewController.h; sourceTree = "<group>"; };
+		78BF01CD189F83DF002E190A /* SNMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNMainViewController.m; path = Views/SNMainViewController.m; sourceTree = "<group>"; };
+		78BF01CE189F83DF002E190A /* SNMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SNMainViewController.xib; path = Views/SNMainViewController.xib; sourceTree = "<group>"; };
+		78F26221189FE69A00E197D9 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78BF0195189F82C0002E190A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78AD794C189FA1C200771913 /* AVFoundation.framework in Frameworks */,
+				78BF019E189F82C0002E190A /* CoreGraphics.framework in Frameworks */,
+				78BF01A0189F82C0002E190A /* UIKit.framework in Frameworks */,
+				78F26222189FE69A00E197D9 /* DropboxSDK.framework in Frameworks */,
+				78BF019C189F82C0002E190A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BF01B0189F82C0002E190A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BF01B5189F82C0002E190A /* XCTest.framework in Frameworks */,
+				78BF01B7189F82C0002E190A /* UIKit.framework in Frameworks */,
+				78BF01B6189F82C0002E190A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		786A98F7189FA5540055CF8B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				786A98F8189FA5710055CF8B /* SNSettingsViewController.h */,
+				786A98F9189FA5710055CF8B /* SNSettingsViewController.m */,
+				786A98FA189FA5710055CF8B /* SNSettingsViewController.xib */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		7893E752189FDFEA007C052D /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				7893E753189FDFFD007C052D /* SNSplashViewController.h */,
+				7893E754189FDFFD007C052D /* SNSplashViewController.m */,
+				7893E755189FDFFD007C052D /* SNSplashViewController.xib */,
+			);
+			name = Splash;
+			sourceTree = "<group>";
+		};
+		78AD7942189F93DA00771913 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				78F26221189FE69A00E197D9 /* DropboxSDK.framework */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		78BF018F189F82C0002E190A = {
+			isa = PBXGroup;
+			children = (
+				78BF01A1189F82C0002E190A /* SoundRecorder */,
+				78BF01BA189F82C0002E190A /* SoundRecorderTests */,
+				78BF019A189F82C0002E190A /* Frameworks */,
+				78BF0199189F82C0002E190A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78BF0199189F82C0002E190A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78BF0198189F82C0002E190A /* SoundRecorder.app */,
+				78BF01B3189F82C0002E190A /* SoundRecorderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78BF019A189F82C0002E190A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78AD794B189FA1C200771913 /* AVFoundation.framework */,
+				78BF019B189F82C0002E190A /* Foundation.framework */,
+				78BF019D189F82C0002E190A /* CoreGraphics.framework */,
+				78BF019F189F82C0002E190A /* UIKit.framework */,
+				78BF01B4189F82C0002E190A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78BF01A1189F82C0002E190A /* SoundRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				78AD7942189F93DA00771913 /* Libraries */,
+				78BF01CB189F82D7002E190A /* Classes */,
+				78BF01CA189F82D1002E190A /* Views */,
+				78BF01AA189F82C0002E190A /* SNAppDelegate.h */,
+				78BF01AB189F82C0002E190A /* SNAppDelegate.m */,
+				78BF01AD189F82C0002E190A /* Images.xcassets */,
+				78BF01A2189F82C0002E190A /* Supporting Files */,
+			);
+			path = SoundRecorder;
+			sourceTree = "<group>";
+		};
+		78BF01A2189F82C0002E190A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78BF01A3189F82C0002E190A /* SoundRecorder-Info.plist */,
+				78BF01A4189F82C0002E190A /* InfoPlist.strings */,
+				78BF01A7189F82C0002E190A /* main.m */,
+				78BF01A9189F82C0002E190A /* SoundRecorder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78BF01BA189F82C0002E190A /* SoundRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				78BF01C0189F82C0002E190A /* SoundRecorderTests.m */,
+				78BF01BB189F82C0002E190A /* Supporting Files */,
+			);
+			path = SoundRecorderTests;
+			sourceTree = "<group>";
+		};
+		78BF01BB189F82C0002E190A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78BF01BC189F82C0002E190A /* SoundRecorderTests-Info.plist */,
+				78BF01BD189F82C0002E190A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78BF01CA189F82D1002E190A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7893E752189FDFEA007C052D /* Splash */,
+				786A98F7189FA5540055CF8B /* Settings */,
+				78BF01CC189F83DF002E190A /* SNMainViewController.h */,
+				78BF01CD189F83DF002E190A /* SNMainViewController.m */,
+				78BF01CE189F83DF002E190A /* SNMainViewController.xib */,
+				7893E751189FD86C007C052D /* SNMainViewControllerState.h */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		78BF01CB189F82D7002E190A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				78AD7945189F980600771913 /* SNRecorder.h */,
+				78AD7946189F980600771913 /* SNRecorder.m */,
+				78AD794A189F9FFD00771913 /* SNRecorderDelegate.h */,
+				78AD7949189F9EC400771913 /* SNRecorderState.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78BF0197189F82C0002E190A /* SoundRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78BF01C4189F82C0002E190A /* Build configuration list for PBXNativeTarget "SoundRecorder" */;
+			buildPhases = (
+				78BF0194189F82C0002E190A /* Sources */,
+				78BF0195189F82C0002E190A /* Frameworks */,
+				78BF0196189F82C0002E190A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundRecorder;
+			productName = SoundRecorder;
+			productReference = 78BF0198189F82C0002E190A /* SoundRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78BF01B2189F82C0002E190A /* SoundRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78BF01C7189F82C0002E190A /* Build configuration list for PBXNativeTarget "SoundRecorderTests" */;
+			buildPhases = (
+				78BF01AF189F82C0002E190A /* Sources */,
+				78BF01B0189F82C0002E190A /* Frameworks */,
+				78BF01B1189F82C0002E190A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78BF01B9189F82C0002E190A /* PBXTargetDependency */,
+			);
+			name = SoundRecorderTests;
+			productName = SoundRecorderTests;
+			productReference = 78BF01B3189F82C0002E190A /* SoundRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78BF0190189F82C0002E190A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SN;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = NoCompany;
+				TargetAttributes = {
+					78BF0197189F82C0002E190A = {
+						DevelopmentTeam = 64DXV5M5R8;
+					};
+					78BF01B2189F82C0002E190A = {
+						TestTargetID = 78BF0197189F82C0002E190A;
+					};
+				};
+			};
+			buildConfigurationList = 78BF0193189F82C0002E190A /* Build configuration list for PBXProject "SoundRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 78BF018F189F82C0002E190A;
+			productRefGroup = 78BF0199189F82C0002E190A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78BF0197189F82C0002E190A /* SoundRecorder */,
+				78BF01B2189F82C0002E190A /* SoundRecorderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78BF0196189F82C0002E190A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BF01A6189F82C0002E190A /* InfoPlist.strings in Resources */,
+				78BF01D0189F83DF002E190A /* SNMainViewController.xib in Resources */,
+				7893E757189FDFFD007C052D /* SNSplashViewController.xib in Resources */,
+				786A98FC189FA5710055CF8B /* SNSettingsViewController.xib in Resources */,
+				78BF01AE189F82C0002E190A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BF01B1189F82C0002E190A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BF01BF189F82C0002E190A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78BF0194189F82C0002E190A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78AD7947189F980600771913 /* SNRecorder.m in Sources */,
+				78BF01CF189F83DF002E190A /* SNMainViewController.m in Sources */,
+				786A98FB189FA5710055CF8B /* SNSettingsViewController.m in Sources */,
+				78BF01A8189F82C0002E190A /* main.m in Sources */,
+				7893E756189FDFFD007C052D /* SNSplashViewController.m in Sources */,
+				78BF01AC189F82C0002E190A /* SNAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BF01AF189F82C0002E190A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BF01C1189F82C0002E190A /* SoundRecorderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78BF01B9189F82C0002E190A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78BF0197189F82C0002E190A /* SoundRecorder */;
+			targetProxy = 78BF01B8189F82C0002E190A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78BF01A4189F82C0002E190A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78BF01A5189F82C0002E190A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		78BF01BD189F82C0002E190A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78BF01BE189F82C0002E190A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78BF01C2189F82C0002E190A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78BF01C3189F82C0002E190A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78BF01C5189F82C0002E190A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Volumes/Work/SoundRecorder/SoundRecorder/Libraries,
+					/Volumes/Work/SoundRecorder/Sources/SoundRecorder/SoundRecorder/Libraries,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundRecorder/SoundRecorder-Prefix.pch";
+				INFOPLIST_FILE = "SoundRecorder/SoundRecorder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		78BF01C6189F82C0002E190A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Volumes/Work/SoundRecorder/SoundRecorder/Libraries,
+					/Volumes/Work/SoundRecorder/Sources/SoundRecorder/SoundRecorder/Libraries,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundRecorder/SoundRecorder-Prefix.pch";
+				INFOPLIST_FILE = "SoundRecorder/SoundRecorder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		78BF01C8189F82C0002E190A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoundRecorder.app/SoundRecorder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundRecorder/SoundRecorder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SoundRecorderTests/SoundRecorderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		78BF01C9189F82C0002E190A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoundRecorder.app/SoundRecorder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundRecorder/SoundRecorder-Prefix.pch";
+				INFOPLIST_FILE = "SoundRecorderTests/SoundRecorderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78BF0193189F82C0002E190A /* Build configuration list for PBXProject "SoundRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BF01C2189F82C0002E190A /* Debug */,
+				78BF01C3189F82C0002E190A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78BF01C4189F82C0002E190A /* Build configuration list for PBXNativeTarget "SoundRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BF01C5189F82C0002E190A /* Debug */,
+				78BF01C6189F82C0002E190A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78BF01C7189F82C0002E190A /* Build configuration list for PBXNativeTarget "SoundRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BF01C8189F82C0002E190A /* Debug */,
+				78BF01C9189F82C0002E190A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78BF0190189F82C0002E190A /* Project object */;
+}
